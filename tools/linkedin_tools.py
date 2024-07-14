@@ -31,7 +31,7 @@ def scrape_linkedin_posts_fn(profile_username: str,orglink: int) -> str:
     username_input.send_keys(linkedin_username)
     password_input.send_keys(linkedin_password)
     password_input.send_keys(Keys.RETURN)
-    time.sleep(10)
+    time.sleep(4)
     if orglink==0:
         browser.get(f"https://www.linkedin.com/in/{profile_username}/recent-activity/all/")
     else:

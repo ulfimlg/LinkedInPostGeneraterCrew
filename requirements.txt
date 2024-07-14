@@ -9,3 +9,4 @@ streamlit_pdf_reader
 crewai-tools
 undetected-chromedriver
 beautifulsoup4
+lxml
